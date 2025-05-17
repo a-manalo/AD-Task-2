@@ -28,6 +28,7 @@ navHeader();
         <p id="quote-text" style="font-size: 2em; margin-bottom: 1rem; font-style: italic;"></p>
         <p id="quote-source" style="font-size: 1.2em; opacity: 1;"></p>
     </div>
+    <a href="./pages/worldTime/index.php" style="display: inline-block; margin-top: 2rem; padding: 0.8rem 1.5rem; background-color: black; color: white; text-decoration: none; border-radius: 6px; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); transition: color 0.2s ease;" onmouseover="this.style.color='#FCD34D'" onmouseout="this.style.color='white'">View World Clock</a>
 </div>
 
 <?php echo updateQuote(); ?>
