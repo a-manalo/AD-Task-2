@@ -1,9 +1,9 @@
 <?php
 require BASE_PATH . '/vendor/autoload.php';
-require BASE_PATH . '/utils/htmlEscape.utils.php';
+require BASE_PATH . '/utils/HtmlEscape.utils.php';
 require_once BASE_PATH . '/handlers/timeZone.handler.php';
-require_once BASE_PATH . '/utils/getTime.utils.php';
-require_once BASE_PATH . '/utils/updateClock.utils.php';
+require_once BASE_PATH . '/utils/GetTime.utils.php';
+require_once BASE_PATH . '/utils/UpdateClock.utils.php';
 
 require_once BASE_PATH . '/components/templates/head.component.php';
 require_once BASE_PATH . '/components/templates/nav.component.php';
