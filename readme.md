@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A Ghibli-themed project (Optional)
+  A Ghibli-themed Digital Clock Project.
 </div>
 
 <br />
