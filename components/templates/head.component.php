@@ -7,7 +7,7 @@ function head($pageTitle)
 
         <head>
             <meta charset="utf-8">
-            <title><?= htmlEscape($pageTitle ?? 'Ghibli World Digital Clock') ?></title>
+            <title><?= htmlEscape($pageTitle ?? 'World Digital Clock') ?></title>
             
             <!-- Libraries -->
             <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>

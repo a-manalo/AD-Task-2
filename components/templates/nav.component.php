@@ -10,7 +10,7 @@ function navHeader()
                         <a href="./index.php" class="text-white font-bold hover:text-yellow-300 transition-colors duration-200">Home</a>
                     </li>
                     <li>
-                        <a href="./pages/worldTime/index.php" class="text-white font-bold hover:text-yellow-300 transition-colors duration-200">World Time</a>
+                        <a href="./pages/worldTime/index.php" class="text-white font-bold hover:text-yellow-300 transition-colors duration-200">World Clock</a>
                     </li>
                 </ul>
             </div>
