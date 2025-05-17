@@ -3,7 +3,7 @@ function navHeader()
 {
     ?>
     <header>
-        <nav class="bg-black/80 backdrop-blur-sm w-full">
+        <nav class="bg-black backdrop-blur-sm w-full">
             <div class="flex justify-center items-center py-6">
                 <ul class="flex space-x-8">
                     <li>
