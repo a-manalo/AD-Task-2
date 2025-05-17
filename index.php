@@ -18,7 +18,7 @@ navHeader();
 <div class="video-background" style="position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; z-index: -1;">
     <video autoplay muted loop id="myVideo" style="width: 100vw; height: 100vh; object-fit: cover;">
         <source src="../assets/vid/ghibliNature.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support the video tag. <!-- message when browser doesn't support the video element -->
     </video>
 </div>
 
