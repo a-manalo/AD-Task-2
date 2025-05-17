@@ -1,11 +1,11 @@
 <?php
 
 function updateQuote() {
-    global $ghibliQuotes;
+    $quotes = getGhibliQuotes();
     
     $script = "
     <script>
-        const quotes = " . json_encode($ghibliQuotes) . ";
+        const quotes = " . json_encode($quotes) . ";
         
         function updateQuote() {
             const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -15,8 +15,10 @@ function updateQuote() {
             document.getElementById('quote-source').textContent = '— ' + quote.movie + ', ' + quote.year;
         }
         
+        // Initial quote load
         updateQuote();
-        setInterval(updateQuote, 10000);
+        // Update quote every 30 seconds
+        setInterval(updateQuote, 30000);
     </script>";
     
     return $script;
