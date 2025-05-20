@@ -108,7 +108,8 @@ AD-Task-2
 |   └─ vid
 |   |   └─ ghibliNature.mp4
 └─ components
-|   └─ name.component.php
+|   └─ displayQuote.component.php
+|   └─ displayDigitalClock.component.php
 |   └─ templates
 |      └─ foot.component.php
 |      └─ head.component.php
