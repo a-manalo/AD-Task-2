@@ -6,3 +6,12 @@ function getCurrentTime($timezone) {
         'period' => $date->format('A')
     ];
 }
+
+function handleTimezoneRequest() {
+    if (isset($_GET['timezone'])) {
+        $timezone = $_GET['timezone'] ?? 'Asia/Manila';
+        $time = getCurrentTime($timezone);
+        echo json_encode($time);
+        exit;
+    }
+}
