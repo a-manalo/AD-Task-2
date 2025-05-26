@@ -147,9 +147,7 @@ AD-Task-2
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title                   | Purpose                                       | Link                                        |
+| ----------------------- | --------------------------------------------- | ------------------------------------------- |
+| Ghibli Cinematography   | Used as background video for home page.       | https://www.youtube.com/watch?v=i63STOtAL2g |
+| Studio Ghibli Wallpaper | Used as background image for worldClock page. | https://wallpapers.com/studio-ghibli        |
