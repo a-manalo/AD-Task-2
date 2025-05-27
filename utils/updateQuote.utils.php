@@ -17,8 +17,8 @@ function updateQuote() {
         
         // Initial quote load
         updateQuote();
-        // Update quote every 30 seconds
-        setInterval(updateQuote, 30000);
+        // Update quote every 10 seconds
+        setInterval(updateQuote, 10000);
     </script>";
     
     return $script;
