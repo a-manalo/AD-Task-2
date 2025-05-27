@@ -1,12 +1,12 @@
 <?php
 require BASE_PATH . '/vendor/autoload.php';
 require BASE_PATH . '/utils/HtmlEscape.utils.php';
-require_once BASE_PATH . '/handlers/quotes.handler.php';
+require_once BASE_PATH . '/staticData/quotes.staticData.php';
 require_once BASE_PATH . '/utils/UpdateQuote.utils.php';
 
 require_once BASE_PATH . '/components/templates/head.component.php';
 require_once BASE_PATH . '/components/templates/nav.component.php';
-require_once BASE_PATH . '/components/displayQuote.component.php';
+require_once BASE_PATH . '/components/componentGroup/displayQuote.component.php';
 require_once BASE_PATH . '/components/templates/foot.component.php';
 ?>
 
