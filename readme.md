@@ -108,15 +108,17 @@ AD-Task-2
 |   └─ vid
 |   |   └─ ghibliNature.mp4
 └─ components
-|   └─ displayQuote.component.php
-|   └─ displayDigitalClock.component.php
+|   └─ componentGroup
+|      └─ displayDigitalClock.component.php
+|      └─ displayQuote.component.php
 |   └─ templates
 |      └─ foot.component.php
 |      └─ head.component.php
 |      └─ nav.component.php
 └─ handlers
-|   └─ quotes.handler.php
-|   └─ timeZone.handler.php
+|   └─ name.handler.php
+└─ layout
+|   └─ name.layout.php
 └─ pages
 |  └─ worldClock
 |     └─ assets
@@ -127,6 +129,9 @@ AD-Task-2
 |     |  └─ js
 |     |     └─ name.js
 |     └─ index.php
+└─ staticData
+|  └─ quotes.staticData.php
+|  └─ timezones.staticData.php
 └─ utils
 |   └─ HtmlEscape.utils.php
 |   └─ UpdateQuote.utils.php
