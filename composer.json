@@ -12,5 +12,8 @@
             "email": "agmnlo.by@gmail.com"
         }
     ],
+    "scripts": {
+        "start": "php -S localhost:8000 router.php"
+    },
     "require": {}
 }
